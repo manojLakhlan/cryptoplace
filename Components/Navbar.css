@@ -80,6 +80,24 @@
     width:12px;
   }
 
+  @media(max-width: 480px){
+    .logo{
+      max-width: 160px;
+    }
+    .navbar select{
+      width: 60px;
+      font-size: 8px;
+
+    }
+    .navbar button{
+      font-size: 12px;
+      padding: 5px 10px;
+      gap: 5px;
+    }
+
+  
+  }
+
 
 
 }
